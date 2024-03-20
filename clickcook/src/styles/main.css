@@ -1,0 +1,51 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Recipe card styles */
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-card h2 {
+  font-size: 1.5rem;
+}
+
+.recipe-card img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.recipe-card p {
+  margin-top: 0.5rem;
+}
